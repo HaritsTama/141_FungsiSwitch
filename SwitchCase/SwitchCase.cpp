@@ -50,9 +50,14 @@ int main()
 
 		switch (pilihan)
 		{
-		case 1:
+		case 1 :
 			input();
-			cout << "Hasil Penjumlahan = " << penjumlaha(a, b) << endl;
+			cout << "Hasil Penjumlahan = " << penjumlahan(a, b) << endl;
+			system("pause");
+			break;
+		case 2 :
+			input();
+			cout << "Hasil Pengurangan = " << pengurangan(a, b) << endl;
 			system("pause");
 			break;
 		}
