@@ -60,6 +60,12 @@ int main()
 			cout << "Hasil Pengurangan = " << pengurangan(a, b) << endl;
 			system("pause");
 			break;
+		case 3 :
+			input();
+			cout << "Hasil Perkalian = " << perkalian(a, b) << endl;
+			system("pause");
+			break;
+		
 		}
 	} while ();
 }
