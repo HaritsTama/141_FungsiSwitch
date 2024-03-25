@@ -51,7 +51,10 @@ int main()
 		switch (pilihan)
 		{
 		case 1:
-
+			input();
+			cout << "Hasil Penjumlahan = " << penjumlaha(a, b) << endl;
+			system("pause");
+			break;
 		}
 	} while ();
 }
