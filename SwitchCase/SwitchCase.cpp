@@ -70,6 +70,11 @@ int main()
 			cout << "Hasil Pembagain = " << pembagian(a, b) << endl;
 			system("pause");
 			break;
+		case 5 :
+			break;
+		default :
+			cout << "Menu tidak tersedia, silahkan pilih lagi (1/2/3/4/5)" << endl;
+			break
 		}
-	} while ();
+	} while (pilihan != 5);
 }
