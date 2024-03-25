@@ -74,7 +74,7 @@ int main()
 			break;
 		default :
 			cout << "Menu tidak tersedia, silahkan pilih lagi (1/2/3/4/5)" << endl;
-			break
+			break;
 		}
 	} while (pilihan != 5);
 }
